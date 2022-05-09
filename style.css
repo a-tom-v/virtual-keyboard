@@ -1,0 +1,182 @@
+.container {
+  margin: 0 auto;
+  height: 100%;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.textarea {
+  width: 803px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.keyboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 6px;
+  background-color: #A9A9A9;
+  border: 4px solid #696969;
+  border-radius: 10px;
+  padding: 5px;
+  width: 800px;
+}
+
+.keyboard .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #7FFFD4;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  opacity: 1;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.keyboard .button:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.keyboard .button:active {
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: #00FF7F;
+}
+
+.keyboard .backspace {
+  width: 100px;
+  background-color: #40E0D0;
+}
+
+.keyboard .backspace:active {
+  background-color: #008080;
+}
+
+.keyboard .tab {
+  width: 80px;
+  background-color: #40E0D0;
+}
+
+.keyboard .tab:active {
+  background-color: #008080;
+}
+
+.keyboard .del {
+  background-color: #40E0D0;
+}
+
+.keyboard .del:active {
+  background-color: #008080;
+}
+
+.keyboard .capslock {
+  width: 100px;
+  background-color: #40E0D0;
+}
+
+.keyboard .capslock:active {
+  background-color: #008080;
+}
+
+.keyboard .enter {
+  width: 100px;
+  background-color: #40E0D0;
+}
+
+.keyboard .enter:active {
+  background-color: #008080;
+}
+
+.keyboard .shift {
+  width: 100px;
+  background-color: #40E0D0;
+}
+
+.keyboard .shift:active {
+  background-color: #008080;
+}
+
+.keyboard .ctrl {
+  background-color: #40E0D0;
+}
+
+.keyboard .ctrl:active {
+  background-color: #008080;
+}
+
+.keyboard .win {
+  background-color: #40E0D0;
+}
+
+.keyboard .win:active {
+  background-color: #008080;
+}
+
+.keyboard .alt {
+  background-color: #40E0D0;
+}
+
+.keyboard .alt:active {
+  background-color: #008080;
+}
+
+.keyboard .up {
+  background-color: #5F9EA0;
+}
+
+.keyboard .up:active {
+  background-color: #556B2F;
+}
+
+.keyboard .space {
+  width: 312px;
+}
+
+.keyboard .lt {
+  background-color: #5F9EA0;
+}
+
+.keyboard .lt:active {
+  background-color: #556B2F;
+}
+
+.keyboard .dn {
+  background-color: #5F9EA0;
+}
+
+.keyboard .dn:active {
+  background-color: #556B2F;
+}
+
+.keyboard .rt {
+  background-color: #5F9EA0;
+}
+
+.keyboard .rt:active {
+  background-color: #556B2F;
+}
+/*# sourceMappingURL=style.css.map */
